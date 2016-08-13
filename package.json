@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Proyecto con ejemplos sobre el uso y funcionamiento de las dependencias en Node.js para el artículo http://eatandcode.es/2016/08/13/Como-montar-tu-repositorio-npm-privado-con-sinopia/",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davloperez/eatandcode-npm-dependency-example.git"
+  },
+  "keywords": [
+    "eat&code",
+    "npm",
+    "dependency"
+  ],
+  "author": "David López Pérez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/davloperez/eatandcode-npm-dependency-example/issues"
+  },
+  "homepage": "https://github.com/davloperez/eatandcode-npm-dependency-example#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "esrol-logger": "0.0.10"
+  }
+}
